@@ -1,5 +1,10 @@
 # Intro to Coding: HTML and CSS
 
+### Learning Objectives
+- Get familiar with popular, browser-based tools
+- Learn the basics of HTML and CSS
+- Apply what you learn to a live webpage
+
 Welcome to SEI! During tonight's info session we are going to build a simple website on Codepen.io using HTML and CSS. This session is meant to provide you with a taste of what one of our SEI classes feels like in a remote format. Since you're just getting started, we'll use web-based tools to learn but know that as a student of the Software Engineering Immersive we will help you set up and learn using industry-standard software and tools.
 
 Let's see what we're going to build. Check it out [here](http://intro-to-html-css.surge.sh/)
