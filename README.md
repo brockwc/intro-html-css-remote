@@ -24,7 +24,7 @@ To build this site we'll be using two tools:
 
 ### Getting Started
 1. Sign up and sign in to [codepen.io](http://codepen.io)
-2. Click this link to open a pen that we've added some starter code to
+2. [Click this link](https://codepen.io/ZakkMann/pen/KRRqre?editors=1010) to open a pen that we've added some starter code to
 3. In the top right menu, click "Fork" (this copies the codepen contents into a pen that you own and can change)
 
 ## HTML
