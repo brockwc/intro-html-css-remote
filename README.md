@@ -12,7 +12,7 @@ Welcome to SEI! During tonight's info session we are going to build a simple web
 Let's see what we're going to build. Check it out [here](http://intro-to-html-css.surge.sh/)
 
 ## Three Essential Ingredients
-Three languages are responsible for every website that we visit: HTML, CSS, and Javascript. Tonight we'll focus on HTML and CSS with the majority of our time spent on CSS.
+Three languages are responsible for every website that we visit: HTML, CSS, and Javascript. Tonight we'll focus on HTML and CSS but expect to be sent home with a little "homework" to wrap up the site and make it your own.
 
 Broadly, let's think of HTML as **defining the structure and content of the page** and let's think of CSS as **providing the style of the page**.
 
@@ -44,13 +44,13 @@ A typical HTML tag looks like this:
 <p>This text will be formatted as a paragraph and rendered to the page</p>
 ```
 
-Notice the opening and closing tag that **wraps** the content to be displayed. Most elements will have both an opening and closing tag but some will "self close". Take a look:
+Notice the opening and closing tag that **wraps** the content to be displayed. Most elements will have both an opening and closing tag but some will "self close". Take a lookat an example using the `img` element:
 
 ```html
 <img src="picture.jpg" />
 ```
 
-An `img` tag doesn't need to wrap around any content because the content is provided by the `src` attribute. Wait, "attribute"? What's that?
+An `img` tag doesn't need to wrap around any content because the content is provided by its `src` attribute. A few other elements use this style but mostly we'll work with opening and closing tags in HTML. Wait, I used a new term just now: "attribute". What's that?
 
 ### HTML Attriibutes
 Attributes allow us to provide additional contextual information to our HTML elements. In the example above we see an attribute that provides content to be rendered to the page but sometimes attributes are used just to store stuff. It may be a class, it may be a piece of data, or, in the case of an anchor tag a link to an outside source.
@@ -59,7 +59,7 @@ Attributes allow us to provide additional contextual information to our HTML ele
 <a href="http://google.ca">Click me!</a>
 ```
 
-Attributes follow a consistent format of key-value pairs like this: `attributeName="someValueWeProvide"`
+Attributes follow a consistent format of key-value pairs like this: `attributeName="attributeValue"`
 
 ### The HTML Shell
 At its most basic, our HTML files will include the following code structure:
@@ -105,7 +105,7 @@ This has been a good introduction to HTML but to really get it, let's write some
 
 2. Make sure that your content is rendering in Codepen.
 
-### You do: Add the remaining content. (10 min)
+### You do: Add the remaining content. (5 min)
 The best way to learn how to code is to do it for yourself and build your experience level. Now that you've seen a basic walkthrough, practice that skill by adding in the remaining two content sections to the `<main>` element. If you need help, don't be afraid to ask!
 
 Once you're done with that, we're ready to talk CSS and this page certainly needs a lot of it.
@@ -156,14 +156,14 @@ We're not limited to selecting HTML elements using their tag name, we can also s
 }
 ```
 
-We select the class using "dot notation". In other words, we will select all elements with the class of title and apply the same set of style rules to each.
+We select the class using "dot notation". In other words, we will select all elements with the class of title and apply the same set of style rules to each. If 5 elements share this class, all 5 will inherit these style rules. Classes are powerful but they should be used intentionally.
 
 ### CSS is Hard
 
 See Peter Griffin GIF.
 
 ### Let's style it up
-The CSS pane of your codepen will have some prompts for which CSS rules go where. We'll build out as many as we have time for and will leave the rest up to you.
+The CSS pane of your codepen will have some prompts for which CSS rules go where. We'll build out as many as we have time for and will leave the rest up to you!
 
 ## Conclusion
 There you have it! An Intro to HTML and CSS is really just scratching the surface of modern web development. In SEI, we'll have the time and space to go wider and deeper into each topic and on the other side you'll not only be able to write pages like this one in your sleep, you'll be able to do quite a bit more. Happy coding! 
